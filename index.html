@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>webpack vue</title>
+    <style>
+        #app {
+            margin: 20px auto;
+            width: 800px;
+            height: 600px;
+        }
+		@keyframes bounce-in {
+		  0% {
+			transform: scale(0);
+		  }
+		  50% {
+			transform: scale(1.5);
+		  }
+		  100% {
+			transform: scale(1);
+		  }
+		}
+		.bar-transition{
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			left:0;
+			top:0;
+			background-color: #eee;
+		}
+		.bar-enter
+		{
+			animation: inpage .5s;
+		}
+		.bar-leave{
+			animation: outpage .5s linear;
+		}
+		@keyframes inpage {
+		  0% {
+			left:-400px
+		  }
+		  
+		  to {
+			left:-0
+		  }
+		}
+		@keyframes outpage {
+		  0% {
+			left:0
+		  }
+		  to {
+			left:-400px
+		  }
+		}
+    </style>
+</head>
+
+<body>
+    <div id="app"></div>
+    
+    <script src="dist/main.js"></script>
+</body>
+
+</html>

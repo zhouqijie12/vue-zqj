@@ -1,0 +1,13 @@
+header{
+    position: absolute;
+    left:0;
+    top:0;
+    background: #ccc;
+    color:#000;
+    padding:15px 5px;
+	width:100%;
+	z-index:10000;
+}
+.mainautow{
+	padding:60px 0 0;
+}
