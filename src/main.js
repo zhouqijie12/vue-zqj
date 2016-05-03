@@ -1,6 +1,7 @@
 import './css/common.css'; //加载公共样式
 
 import Vue from "vue";
+//import $ from 'zepto.js';
 import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
@@ -14,7 +15,7 @@ Vue.config.debug = true;
 var App = Vue.extend(app);
 
 var router = new VueRouter();
-
+//alert($("name"))
 router.map({
     '/bye':{
         name:'bye',

@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "vue": "^1.0.18",
-    "vue-router": "^0.7.13"
+    "vue-router": "^0.7.13",
+    "zepto": "^1.0.1"
   },
   "devDependencies": {
     "autoprefixer-loader": "^2.0.0",

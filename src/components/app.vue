@@ -1,14 +1,14 @@
 <template>
 	 <div class="mainautow">
-        <h1>姓名：{{name}}</h1>
-        <h2>{{age}}</h2>
-		<header>
-			<a v-link="{ name: 'hellow' }">hellow</a>
-			<a v-link="{ name: 'bye' }">bye</a>
-		</header>
-		<router-view></router-view>
+                <h1 id="name">姓名：{{name}}</h1>
+                <h2>{{age}}</h2>
+                    <header>
+                        <a v-link="{ name: 'hellow' }">hellow</a>
+                        <a v-link="{ name: 'bye' }">bye</a>
+                    </header>
+                <router-view></router-view>
 	</div>
-	
+
 </template>
 <script>
     //es6
@@ -25,10 +25,10 @@
 <style>
 	body{
 		background-color: #098;
-		
+
 	}
 
-        
+
 	h1{
 		background-color: #eee;
 		color: red;
