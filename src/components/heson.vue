@@ -1,8 +1,9 @@
 <template>
 	 <div transition="bar" class="mainautow hellowVue">
-        hellow!!!!!!!!!!!!!!!!!!!
-        <router-view></router-view>
-        <a v-link="{ name: 'heson' }">去看看儿子</a>
+        heson!!!!!!!!!!!!!!!!!!!
+         heson!!!!!!!!!!!!!!!!!!!
+          heson!!!!!!!!!!!!!!!!!!!
+           heson!!!!!!!!!!!!!!!!!!!
     </div>
 </template>
 <style>

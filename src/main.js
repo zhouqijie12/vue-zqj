@@ -8,6 +8,7 @@ Vue.use(VueRouter);
 import app from './components/app.vue';
 import hellow from './components/hellow.vue';
 import bye from './components/bye.vue';
+import heson from './components/heson.vue';
 
 
 Vue.config.debug = true;
@@ -24,7 +25,15 @@ router.map({
     },
     '/hellow': {
         name:'hellow',
-        component: hellow
+        component: hellow,
+        subRoutes:{
+            // 当匹配到/index/hello时，会在index的<router-view>内渲染
+            '/heson':{
+                name:'heson',//可有可无，主要是为了方便使用
+                // 一个hello组件
+                component:heson
+            }
+        }
     }
 });
 
